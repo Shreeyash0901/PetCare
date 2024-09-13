@@ -1,0 +1,87 @@
+.main {
+    background-color: rgba(214, 192, 192, 0.842);
+    height: 30rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+}
+
+.sub-div-right {
+    margin-left: 2rem;
+    padding: 1rem;
+    width: 60%;
+    height: 100%;
+}
+
+.sub-div-left {
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(255, 81, 0, 0.815);
+}
+
+.sub-div-right-lower-div {
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.sub-div-right-lower-div-item {
+    align-items: center;
+    justify-content: center;
+}
+
+.form-btn {
+    width: 100%;
+}
+
+.internal-form {
+    padding: 1.5rem;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .sub-div {
+        flex-direction: column; /* Stack vertically on smaller screens */
+        width: 100%;/* Ensure full width */
+        align-items: stretch; /* Allow both to stretch full width */
+    }
+
+    .sub-div-left, 
+    .sub-div-right {
+        width: 100%; /* Both divs take full width */
+        height: auto; /* Let the height adjust based on content */
+        margin-left: 0; /* Remove left margin for mobile */
+        padding: 1rem;
+    }
+
+    .sub-div-right-lower-div {
+        grid-template-columns: 1fr; /* Switch to a single column grid */
+        height: auto; /* Let the height adjust based on content */
+    }
+    .sub-div-right {
+        background-color: rgba(214, 192, 192, 0.842);
+    }
+    .sub-div-right h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .sub-div-right h4 {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+
+    .sub-div-right-lower-div-item {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}

@@ -1,0 +1,46 @@
+.top-header{
+    background-color: rgba(62, 211, 69, 0.781);
+    
+}
+
+.logo-text-1{
+    color:rgba(255, 81, 0, 0.932);
+    font-weight: bolder;
+}
+
+.nav-left-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-left-text-item{
+  padding: 0.4rem;
+  margin-left: 0.5rem;
+   
+}
+
+.dividerimg{
+    height: 4rem;
+}
+.dividerimg1{
+    height: 2rem;
+    
+    padding: 0.5rem;
+}
+
+.topHeader-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topHeader-right a{
+    padding: 0.4rem;
+}
+
+
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: rgb(255, 63, 4);
+}
