@@ -4,7 +4,10 @@
     object-fit: cover; 
     max-height: 100vh; 
 }
-
+.carousel-item p{
+    font-weight: 500;
+    
+}
 .carousel-indicators{
     display: none;
 }

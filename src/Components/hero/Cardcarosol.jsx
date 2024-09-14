@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from '../../img/carousel-1.jpg'; 
+import ExampleCarouselImage1 from '../../img/carousel-2.jpg'; 
+
 import '../hero/Cardcarosol.css';
 import Button from 'react-bootstrap/Button';
 
@@ -20,10 +22,10 @@ const Cardcarosol = () => {
       <Carousel.Item>
        <img  src={ExampleCarouselImage} alt=""  
                        />
-        <Carousel.Caption style={{ marginBottom:'20%'}}>
+        <Carousel.Caption >
            <b> <h3>Best Pet Services</h3></b>
         <b>  <h1 style={{ fontWeight:'bolder'}}>Pet Spa & Grooming</h1></b>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>Where Pets Feel Paw-some</p>
           <span>
         <div className="mb-2">
         <Button variant="danger" size="md">
@@ -38,21 +40,21 @@ const Cardcarosol = () => {
        
       </Carousel.Item>
       <Carousel.Item>
-       <img  src={ExampleCarouselImage} alt=""   />
-        <Carousel.Caption style={{ marginBottom:'20%'}}>
+       <img  src={ExampleCarouselImage1} alt=""   />
+        <Carousel.Caption >
            <b> <h3>Best Pet Services</h3></b>
         <b>  <h1 style={{ fontWeight:'bolder'}}>Pet Spa & Grooming</h1></b>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <span>
+          <p>Where Pets Feel Paw-some </p>
+         
         <div className="mb-2">
-        <Button variant="danger" size="md">
+        <Button variant="danger" size="sm">
           Book Now
         </Button>{' '}
-        <Button variant="success" size="md">
+        <Button variant="success" size="sm">
           Learn More
         </Button>
       </div>
-        </span>
+        
         </Carousel.Caption>
       </Carousel.Item>
       

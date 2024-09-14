@@ -1,0 +1,132 @@
+.main-section {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    overflow: hidden;
+    margin-top: 4rem; /* Add margin to separate from the upper component */
+    
+}
+
+.Text-section{
+  
+width: 60%;
+}
+.Text-section h4{
+    font-size: 1rem;
+    font-weight: 900;
+}
+.Text-section h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.image-section{
+   
+width: 40%;
+}
+.imgsection{
+  width: 100%;
+}
+.img-1{
+  width: 100%;
+}
+.img-2-sec{
+  width: 100%;
+}
+.img-3{
+  width: 50%;
+}
+.img-4{
+  width: 50%;
+}
+  .aboutUs-btn button{
+    background-color: rgb(250, 58, 0);
+    
+  }
+
+  /* Media query for tablets (screens between 768px and 1024px) */
+@media (max-width: 1024px) {
+    .main-section {
+        flex-direction: column;
+        padding: 2rem;
+        margin-top: 3rem; }
+  
+    .Text-section {
+      width: 100%; /* Full width for text section */
+      margin-bottom: 2rem; /* Add spacing between sections */
+    }
+  
+    .Text-section h1 {
+      font-size: 2rem; /* Adjust heading size for tablets */
+    }
+  
+    .Text-section h4 {
+      font-size: 0.9rem; /* Adjust subheading size for tablets */
+    }
+  
+    .image-section {
+      width: 100%; /* Full width for image section */
+      margin-bottom: 2rem;
+    }
+  
+    .aboutUs-btn button {
+      padding: 0.75rem 1.25rem; /* Adjust button padding for tablets */
+      font-size: 1rem; /* Adjust button text size */
+    }
+  }
+  
+  /* Media query for mobile devices (screens smaller than 768px) */
+  @media (max-width: 768px) {
+    .main-section {
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 50rem; /* Smaller padding for mobile */
+    }
+  
+    .Text-section {
+      width: 100%; /* Full width for text section */
+      margin-bottom: 1rem; /* Space between sections */
+    }
+  
+    .Text-section h1 {
+      font-size: 1.5rem; /* Smaller heading size for mobile */
+    }
+  
+    .Text-section h4 {
+      font-size: 0.8rem; /* Smaller subheading size for mobile */
+    }
+  
+    .image-section {
+      width: 100%; /* Full width for image section */
+      margin-bottom: 1rem;
+    }
+    .image-section img{
+      width: auto;
+      height: 10rem;
+      align-items: center;
+    }
+    .img-2-sec{
+      
+      flex-direction: column;
+    }
+    .img-1{
+      width: 100%;
+    }
+    .img-2-sec{
+      width: 100%;
+    }
+    .img-3{
+      width: 100%;
+    }
+    .img-4{
+      width: 100%;
+    }
+    .aboutUs-btn button {
+      padding: 0.5rem 1rem; /* Adjust button padding for mobile */
+      font-size: 0.9rem; /* Smaller button text size */
+    }
+  }
+  
