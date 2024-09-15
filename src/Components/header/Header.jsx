@@ -7,6 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../header/header.css'
 function NavScrollExample() {
   return (
+
     <Navbar expand="lg" bg="dark" data-bs-theme="dark" className="">
       <Container className='lower-nav ' fluid>
         
@@ -17,7 +18,7 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <div style={{background:"red"}} ><Nav.Link href="#action1">Home</Nav.Link></div>
+            <div className='home' >Home</div>
             <Nav.Link href="#action2">About</Nav.Link> 
             <Nav.Link href="#action1">Service</Nav.Link>
             <Nav.Link href="#action2">Price</Nav.Link>
@@ -38,7 +39,7 @@ function NavScrollExample() {
 
           </Nav>
           
-            <Button variant="danger" className='me-5 '>Get Quote</Button>
+            <Button className='me-5 ' style={{backgroundColor:'rgb(255 118 0)'}}>Get Quote</Button>
           
         </Navbar.Collapse>
       </Container>

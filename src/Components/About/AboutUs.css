@@ -98,35 +98,29 @@ width: 40%;
     .Text-section h4 {
       font-size: 0.8rem; /* Smaller subheading size for mobile */
     }
-  
     .image-section {
       width: 100%; /* Full width for image section */
       margin-bottom: 1rem;
     }
-    .image-section img{
-      width: auto;
-      height: 10rem;
+  
+    .image-section img {
+      width: 100%; /* Ensure the images take full width */
+      height: auto; /* Maintain aspect ratio */
+      display: block;
+      margin: 0 auto; /* Center the image */
+    }
+  
+    .img-2-sec, .img-1, .img-3, .img-4 {
+      width: 100%; /* Ensure all image sections take full width */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       align-items: center;
     }
-    .img-2-sec{
-      
-      flex-direction: column;
-    }
-    .img-1{
-      width: 100%;
-    }
-    .img-2-sec{
-      width: 100%;
-    }
-    .img-3{
-      width: 100%;
-    }
-    .img-4{
-      width: 100%;
-    }
+  
     .aboutUs-btn button {
       padding: 0.5rem 1rem; /* Adjust button padding for mobile */
       font-size: 0.9rem; /* Smaller button text size */
-    }
   }
+}
   

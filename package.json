@@ -14,16 +14,15 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  
-  "homepage": "https://github.com/Shreeyash0901/PetCare.git",
- "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+  "homepage": "https://Shreeyash0901.github.io/PetCare",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

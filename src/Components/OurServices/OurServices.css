@@ -21,6 +21,13 @@
 .card{
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
+    box-shadow: black 2px 6px 25px 1px;
+    height: 25rem;
+}
+
+.card p{
+    margin-left: 1rem;
 }
 .card-body{
     padding: 1rem;

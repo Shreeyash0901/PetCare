@@ -47,11 +47,11 @@ function GridExample() {
       {CardData.map((data, idx) => (
         <Col key={idx}>
           <Card>
-            <Card.Img variant="top" src={data.img} />
+            <Card.Img variant="top" src={data.img} className='fw-bolder' />
             <Card.Body>
-              <Card.Title>{data.title}</Card.Title>
-              <Card.Text>{data.description}</Card.Text>
-              <h4>READ MORE</h4>
+              <Card.Title><h1>{data.title}</h1></Card.Title>
+              <Card.Text className='justify-center' >{data.description}</Card.Text>
+              <h4 style={{color:'rgb(250, 58, 0)'}}>READ MORE</h4>
             </Card.Body>
           </Card>
         </Col>

@@ -8,6 +8,16 @@
     font-weight: bolder;
 }
 
+.home{
+    background: rgb(255, 118, 0);
+    position: relative;
+    height: 3rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
 .nav-left-text{
     display: flex;
     flex-direction: row;
@@ -43,4 +53,20 @@
 
 .carousel-control-prev-icon,.carousel-control-next-icon{
     background-color: rgb(255, 63, 4);
+}
+
+
+
+@media (max-width: 768px) {
+
+   div.home {
+        background: rgb(34 34 45);
+        position: relative;
+        height: 3rem;
+        padding: 1rem;
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+        color: white;
+    }
 }
