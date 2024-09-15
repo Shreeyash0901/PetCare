@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PetCare/static/css/main.4fa77b56.css",
-    "main.js": "/PetCare/static/js/main.63ca584a.js",
+    "main.css": "/PetCare/static/css/main.407b7dfd.css",
+    "main.js": "/PetCare/static/js/main.e62f3c65.js",
     "static/js/453.26796fb8.chunk.js": "/PetCare/static/js/453.26796fb8.chunk.js",
     "static/media/carousel-2.jpg": "/PetCare/static/media/carousel-2.bb755566d392a7dada10.jpg",
     "static/media/carousel-1.jpg": "/PetCare/static/media/carousel-1.26910c478fcfa3e58f26.jpg",
@@ -15,12 +15,12 @@
     "static/media/petExercise.JPG": "/PetCare/static/media/petExercise.2b2d68952092f0290a42.JPG",
     "static/media/petBoarding.JPG": "/PetCare/static/media/petBoarding.a2c502fe091ac3570de7.JPG",
     "index.html": "/PetCare/index.html",
-    "main.4fa77b56.css.map": "/PetCare/static/css/main.4fa77b56.css.map",
-    "main.63ca584a.js.map": "/PetCare/static/js/main.63ca584a.js.map",
+    "main.407b7dfd.css.map": "/PetCare/static/css/main.407b7dfd.css.map",
+    "main.e62f3c65.js.map": "/PetCare/static/js/main.e62f3c65.js.map",
     "453.26796fb8.chunk.js.map": "/PetCare/static/js/453.26796fb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fa77b56.css",
-    "static/js/main.63ca584a.js"
+    "static/css/main.407b7dfd.css",
+    "static/js/main.e62f3c65.js"
   ]
 }
